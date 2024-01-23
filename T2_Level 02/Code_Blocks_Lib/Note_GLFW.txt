@@ -1,0 +1,237 @@
+Microsoft Windows [Version 10.0.22631.3007]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\HARSH>
+C:\Users\HARSH>cd download
+The system cannot find the path specified.
+
+C:\Users\HARSH>cd downloads
+
+C:\Users\HARSH\Downloads>cd
+C:\Users\HARSH\Downloads
+
+C:\Users\HARSH\Downloads>cd c:\
+
+c:\>cd program files
+
+c:\Program Files>cd c
+The system cannot find the path specified.
+
+c:\Program Files>cd c:\
+
+c:\>cd Code_Blocks_Lib
+
+c:\Code_Blocks_Lib>git clone https://github.com/glfw/glfw.git
+Cloning into 'glfw'...
+remote: Enumerating objects: 31468, done.
+remote: Counting objects: 100% (6969/6969), done.
+remote: Compressing objects:  84% (458/545)
+remote: Compressing objects: 100% (545/545), done.
+remote: Total 31468 (delta 6711), reused 6424 (delta 6424), pack-reused 24499
+Receiving objects: 100% (31468/31468), 14.96 MiB | 7.13 MiB/s, done.
+Resolving deltas: 100% (22503/22503), done.
+
+c:\Code_Blocks_Lib>cd glfw
+
+c:\Code_Blocks_Lib\glfw>mkdir build
+
+c:\Code_Blocks_Lib\glfw>cmake-gui
+
+c:\Code_Blocks_Lib\glfw>cd ..
+
+c:\Code_Blocks_Lib>mkdir rubic_cube_solver_project
+
+c:\Code_Blocks_Lib>cd rubic_cube_solver_project
+
+c:\Code_Blocks_Lib\rubic_cube_solver_project>cd ..
+
+c:\Code_Blocks_Lib>cd glfw
+
+c:\Code_Blocks_Lib\glfw>cd build
+
+c:\Code_Blocks_Lib\glfw\build>mingw32-make
+[  1%] Building C object src/CMakeFiles/glfw.dir/context.c.obj
+[  2%] Building C object src/CMakeFiles/glfw.dir/init.c.obj
+[  3%] Building C object src/CMakeFiles/glfw.dir/input.c.obj
+[  4%] Building C object src/CMakeFiles/glfw.dir/monitor.c.obj
+[  5%] Building C object src/CMakeFiles/glfw.dir/platform.c.obj
+[  6%] Building C object src/CMakeFiles/glfw.dir/vulkan.c.obj
+[  7%] Building C object src/CMakeFiles/glfw.dir/window.c.obj
+[  8%] Building C object src/CMakeFiles/glfw.dir/egl_context.c.obj
+[  9%] Building C object src/CMakeFiles/glfw.dir/osmesa_context.c.obj
+[  9%] Building C object src/CMakeFiles/glfw.dir/null_init.c.obj
+[ 10%] Building C object src/CMakeFiles/glfw.dir/null_monitor.c.obj
+[ 11%] Building C object src/CMakeFiles/glfw.dir/null_window.c.obj
+[ 12%] Building C object src/CMakeFiles/glfw.dir/null_joystick.c.obj
+[ 13%] Building C object src/CMakeFiles/glfw.dir/win32_module.c.obj
+[ 14%] Building C object src/CMakeFiles/glfw.dir/win32_time.c.obj
+[ 15%] Building C object src/CMakeFiles/glfw.dir/win32_thread.c.obj
+[ 16%] Building C object src/CMakeFiles/glfw.dir/win32_init.c.obj
+[ 17%] Building C object src/CMakeFiles/glfw.dir/win32_joystick.c.obj
+[ 18%] Building C object src/CMakeFiles/glfw.dir/win32_monitor.c.obj
+[ 19%] Building C object src/CMakeFiles/glfw.dir/win32_window.c.obj
+[ 20%] Building C object src/CMakeFiles/glfw.dir/wgl_context.c.obj
+[ 21%] Linking C static library libglfw3.a
+[ 21%] Built target glfw
+[ 22%] Building C object examples/CMakeFiles/boing.dir/boing.c.obj
+[ 23%] Building RC object examples/CMakeFiles/boing.dir/glfw.rc.obj
+[ 24%] Linking C executable boing.exe
+[ 24%] Built target boing
+[ 25%] Building C object examples/CMakeFiles/gears.dir/gears.c.obj
+[ 26%] Building RC object examples/CMakeFiles/gears.dir/glfw.rc.obj
+[ 27%] Linking C executable gears.exe
+[ 27%] Built target gears
+[ 28%] Building C object examples/CMakeFiles/heightmap.dir/heightmap.c.obj
+[ 29%] Building RC object examples/CMakeFiles/heightmap.dir/glfw.rc.obj
+[ 30%] Linking C executable heightmap.exe
+[ 30%] Built target heightmap
+[ 31%] Building C object examples/CMakeFiles/offscreen.dir/offscreen.c.obj
+[ 32%] Building RC object examples/CMakeFiles/offscreen.dir/glfw.rc.obj
+[ 33%] Linking C executable offscreen.exe
+[ 33%] Built target offscreen
+[ 34%] Building C object examples/CMakeFiles/particles.dir/particles.c.obj
+[ 35%] Building RC object examples/CMakeFiles/particles.dir/glfw.rc.obj
+[ 36%] Building C object examples/CMakeFiles/particles.dir/__/deps/tinycthread.c.obj
+[ 37%] Building C object examples/CMakeFiles/particles.dir/__/deps/getopt.c.obj
+[ 38%] Linking C executable particles.exe
+[ 38%] Built target particles
+[ 39%] Building C object examples/CMakeFiles/sharing.dir/sharing.c.obj
+[ 39%] Building RC object examples/CMakeFiles/sharing.dir/glfw.rc.obj
+[ 40%] Linking C executable sharing.exe
+[ 40%] Built target sharing
+[ 41%] Building C object examples/CMakeFiles/splitview.dir/splitview.c.obj
+[ 42%] Building RC object examples/CMakeFiles/splitview.dir/glfw.rc.obj
+[ 43%] Linking C executable splitview.exe
+[ 43%] Built target splitview
+[ 44%] Building C object examples/CMakeFiles/triangle-opengl.dir/triangle-opengl.c.obj
+[ 44%] Building RC object examples/CMakeFiles/triangle-opengl.dir/glfw.rc.obj
+[ 45%] Linking C executable triangle-opengl.exe
+[ 45%] Built target triangle-opengl
+[ 46%] Building C object examples/CMakeFiles/triangle-opengles.dir/triangle-opengles.c.obj
+[ 47%] Building RC object examples/CMakeFiles/triangle-opengles.dir/glfw.rc.obj
+[ 48%] Linking C executable triangle-opengles.exe
+[ 48%] Built target triangle-opengles
+[ 49%] Building C object examples/CMakeFiles/wave.dir/wave.c.obj
+[ 50%] Building RC object examples/CMakeFiles/wave.dir/glfw.rc.obj
+[ 51%] Linking C executable wave.exe
+[ 51%] Built target wave
+[ 52%] Building C object examples/CMakeFiles/windows.dir/windows.c.obj
+[ 53%] Building RC object examples/CMakeFiles/windows.dir/glfw.rc.obj
+[ 54%] Linking C executable windows.exe
+[ 54%] Built target windows
+[ 54%] Building C object tests/CMakeFiles/allocator.dir/allocator.c.obj
+[ 55%] Linking C executable allocator.exe
+[ 55%] Built target allocator
+[ 56%] Building C object tests/CMakeFiles/clipboard.dir/clipboard.c.obj
+[ 57%] Building C object tests/CMakeFiles/clipboard.dir/__/deps/getopt.c.obj
+[ 58%] Linking C executable clipboard.exe
+[ 58%] Built target clipboard
+[ 59%] Building C object tests/CMakeFiles/events.dir/events.c.obj
+[ 60%] Building C object tests/CMakeFiles/events.dir/__/deps/getopt.c.obj
+[ 60%] Linking C executable events.exe
+[ 60%] Built target events
+[ 61%] Building C object tests/CMakeFiles/msaa.dir/msaa.c.obj
+[ 62%] Building C object tests/CMakeFiles/msaa.dir/__/deps/getopt.c.obj
+[ 63%] Linking C executable msaa.exe
+[ 63%] Built target msaa
+[ 64%] Building C object tests/CMakeFiles/glfwinfo.dir/glfwinfo.c.obj
+[ 65%] Building C object tests/CMakeFiles/glfwinfo.dir/__/deps/getopt.c.obj
+[ 65%] Linking C executable glfwinfo.exe
+[ 65%] Built target glfwinfo
+[ 66%] Building C object tests/CMakeFiles/iconify.dir/iconify.c.obj
+[ 67%] Building C object tests/CMakeFiles/iconify.dir/__/deps/getopt.c.obj
+[ 68%] Linking C executable iconify.exe
+[ 68%] Built target iconify
+[ 69%] Building C object tests/CMakeFiles/monitors.dir/monitors.c.obj
+[ 70%] Building C object tests/CMakeFiles/monitors.dir/__/deps/getopt.c.obj
+[ 70%] Linking C executable monitors.exe
+[ 70%] Built target monitors
+[ 71%] Building C object tests/CMakeFiles/reopen.dir/reopen.c.obj
+[ 72%] Linking C executable reopen.exe
+[ 72%] Built target reopen
+[ 73%] Building C object tests/CMakeFiles/cursor.dir/cursor.c.obj
+[ 74%] Linking C executable cursor.exe
+[ 74%] Built target cursor
+[ 75%] Building C object tests/CMakeFiles/empty.dir/empty.c.obj
+[ 76%] Building C object tests/CMakeFiles/empty.dir/__/deps/tinycthread.c.obj
+[ 77%] Linking C executable empty.exe
+[ 77%] Built target empty
+[ 78%] Building C object tests/CMakeFiles/gamma.dir/gamma.c.obj
+[ 79%] Linking C executable gamma.exe
+[ 79%] Built target gamma
+[ 80%] Building C object tests/CMakeFiles/icon.dir/icon.c.obj
+[ 81%] Linking C executable icon.exe
+[ 81%] Built target icon
+[ 82%] Building C object tests/CMakeFiles/inputlag.dir/inputlag.c.obj
+[ 83%] Building C object tests/CMakeFiles/inputlag.dir/__/deps/getopt.c.obj
+[ 84%] Linking C executable inputlag.exe
+[ 84%] Built target inputlag
+[ 85%] Building C object tests/CMakeFiles/joysticks.dir/joysticks.c.obj
+[ 86%] Linking C executable joysticks.exe
+[ 86%] Built target joysticks
+[ 87%] Building C object tests/CMakeFiles/tearing.dir/tearing.c.obj
+[ 88%] Linking C executable tearing.exe
+[ 88%] Built target tearing
+[ 89%] Building C object tests/CMakeFiles/threads.dir/threads.c.obj
+[ 90%] Building C object tests/CMakeFiles/threads.dir/__/deps/tinycthread.c.obj
+[ 91%] Linking C executable threads.exe
+[ 91%] Built target threads
+[ 92%] Building C object tests/CMakeFiles/timeout.dir/timeout.c.obj
+[ 93%] Linking C executable timeout.exe
+[ 93%] Built target timeout
+[ 94%] Building C object tests/CMakeFiles/title.dir/title.c.obj
+[ 95%] Linking C executable title.exe
+[ 95%] Built target title
+[ 96%] Building C object tests/CMakeFiles/triangle-vulkan.dir/triangle-vulkan.c.obj
+[ 97%] Linking C executable triangle-vulkan.exe
+[ 97%] Built target triangle-vulkan
+[ 98%] Building C object tests/CMakeFiles/window.dir/window.c.obj
+[100%] Linking C executable window.exe
+[100%] Built target window
+
+c:\Code_Blocks_Lib\glfw\build>mingw32-make install
+[ 21%] Built target glfw
+[ 24%] Built target boing
+[ 27%] Built target gears
+[ 30%] Built target heightmap
+[ 33%] Built target offscreen
+[ 38%] Built target particles
+[ 40%] Built target sharing
+[ 43%] Built target splitview
+[ 45%] Built target triangle-opengl
+[ 48%] Built target triangle-opengles
+[ 51%] Built target wave
+[ 54%] Built target windows
+[ 55%] Built target allocator
+[ 58%] Built target clipboard
+[ 60%] Built target events
+[ 63%] Built target msaa
+[ 65%] Built target glfwinfo
+[ 68%] Built target iconify
+[ 70%] Built target monitors
+[ 72%] Built target reopen
+[ 74%] Built target cursor
+[ 77%] Built target empty
+[ 79%] Built target gamma
+[ 81%] Built target icon
+[ 84%] Built target inputlag
+[ 86%] Built target joysticks
+[ 88%] Built target tearing
+[ 91%] Built target threads
+[ 93%] Built target timeout
+[ 95%] Built target title
+[ 97%] Built target triangle-vulkan
+[100%] Built target window
+Install the project...
+-- Install configuration: ""
+-- Installing: C:/Code_Blocks_Lib/rubic_cube_solver_project/lib/libglfw3.a
+-- Installing: C:/Code_Blocks_Lib/rubic_cube_solver_project/include/GLFW
+-- Installing: C:/Code_Blocks_Lib/rubic_cube_solver_project/include/GLFW/glfw3.h
+-- Installing: C:/Code_Blocks_Lib/rubic_cube_solver_project/include/GLFW/glfw3native.h
+-- Installing: C:/Code_Blocks_Lib/rubic_cube_solver_project/lib/cmake/glfw3/glfw3Config.cmake
+-- Installing: C:/Code_Blocks_Lib/rubic_cube_solver_project/lib/cmake/glfw3/glfw3ConfigVersion.cmake
+-- Installing: C:/Code_Blocks_Lib/rubic_cube_solver_project/lib/cmake/glfw3/glfw3Targets.cmake
+-- Installing: C:/Code_Blocks_Lib/rubic_cube_solver_project/lib/cmake/glfw3/glfw3Targets-noconfig.cmake
+-- Installing: C:/Code_Blocks_Lib/rubic_cube_solver_project/lib/pkgconfig/glfw3.pc
+
+c:\Code_Blocks_Lib\glfw\build>

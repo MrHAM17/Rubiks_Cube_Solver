@@ -1,0 +1,71 @@
+Microsoft Windows [Version 10.0.22631.3007]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\HARSH>cd Code_Blocks_Lib
+The system cannot find the path specified.
+
+C:\Users\HARSH>>cd Code_Blocks_Lib
+'Code_Blocks_Lib' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HARSH>cd Downloads
+
+C:\Users\HARSH\Downloads>>cd Code_Blocks_Lib
+'Code_Blocks_Lib' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HARSH\Downloads>cd C:\
+
+C:\>>cd Code_Blocks_Lib
+Access is denied.
+
+C:\>cd
+C:\
+
+C:\>cd Code_Blocks_Lib
+
+C:\Code_Blocks_Lib>git clone https://github.com/glew/glew.git
+Cloning into 'glew'...
+remote: Repository not found.
+fatal: repository 'https://github.com/glew/glew.git/' not found
+
+C:\Code_Blocks_Lib>cd glew
+The system cannot find the path specified.
+
+C:\Code_Blocks_Lib>cd C:
+C:\Code_Blocks_Lib
+
+C:\Code_Blocks_Lib>git clone https://github.com/glew/glew.git
+Cloning into 'glew'...
+remote: Repository not found.
+fatal: repository 'https://github.com/glew/glew.git/' not found
+
+C:\Code_Blocks_Lib>cd glew-master
+
+C:\Code_Blocks_Lib\glew-master> cmake-gui
+
+C:\Code_Blocks_Lib\glew-master>cd ..
+
+C:\Code_Blocks_Lib>cd Rubiks_Cube_Solver
+The system cannot find the path specified.
+
+C:\Code_Blocks_Lib>cd rubic_cube_solver_project
+
+C:\Code_Blocks_Lib\rubic_cube_solver_project>cd ..
+
+C:\Code_Blocks_Lib>cd glew-master
+
+C:\Code_Blocks_Lib\glew-master>cd build
+
+C:\Code_Blocks_Lib\glew-master\build>mingw32-make
+mingw32-make: *** No targets specified and no makefile found.  Stop.
+
+C:\Code_Blocks_Lib\glew-master\build>mingw32-make install
+mingw32-make: *** No rule to make target 'install'.  Stop.
+
+C:\Code_Blocks_Lib\glew-master\build>cd c:
+C:\Code_Blocks_Lib\glew-master\build
+
+C:\Code_Blocks_Lib\glew-master\build>cd C:\
+
+C:\>
