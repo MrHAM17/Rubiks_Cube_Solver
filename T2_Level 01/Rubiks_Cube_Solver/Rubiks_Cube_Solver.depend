@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1705989648 source:c:\users\harsh\codeblocksprojects\rubiks_cube_solver\main.cpp
+	<iostream>
+	"RubiksCube.h"
+
+1705989576 c:\users\harsh\codeblocksprojects\rubiks_cube_solver\rubikscube.h
+
