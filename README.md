@@ -29,6 +29,6 @@ https://www.youtube.com/watch?v=YCkLzE8BIaY
 
 ### 🚧 Project Status
 
-Started but incomplete. Solver logic was in progress but UI and full solver capability not implemented. Retained for reference only.
+Started but incomplete (unstable). Solver logic was in progress but UI and full solver capability not implemented. Retained for reference only.
 
 ---
